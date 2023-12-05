@@ -18,13 +18,13 @@ cp -a $TOP/tcltls-1.7.22 $OUT
 cd $OUT
 
 case "$DIST" in
-    stretch)
-        dch --local ~bpo9+ --distribution stretch-backports --force-distribution "Automated backport to stretch"
-        ;;
     buster)
         dch --local ~bpo10+ --distribution buster-backports --force-distribution "Automated backport to buster"
         ;;
     bullseye)
+        dch --local ~bpo11+ --distribution bullseye-backports --force-distribution "Automated backport to bullseye"
+        ;;
+    bookworm)
         ;;
     *)
         echo "Don't know how to build tcltls for a distribution named $DIST" >&2
