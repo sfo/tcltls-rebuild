@@ -1,8 +1,16 @@
-tcltls (1.7.22-2+fa1) UNRELEASED; urgency=medium
+tcltls (1.7.22-3+fa1) UNRELEASED; urgency=medium
 
   * Rebuild with --enable-ssl-fastpath workaround
 
  -- Eric Tran <eric.tran@flightaware.com>  Wed, 23 Feb 2022 16:02:47 -0600
+
+tcltls (1.7.22-3) unstable; urgency=medium
+
+  * Fix FTBFS with libssl 3.0 (closes: #1006587).
+  * Bump the debhelper compatibility level to 12.
+  * Bump the standards version to 4.6.0.
+
+ -- Sergei Golovan <sgolovan@debian.org>  Sun, 20 Mar 2022 15:10:11 +0300
 
 tcltls (1.7.22-2) unstable; urgency=medium
 
