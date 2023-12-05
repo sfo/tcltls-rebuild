@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
 Uploaders: Muammar El Khatib <muammar@debian.org>, Sergei Golovan <sgolovan@debian.org>
-Build-Depends: debhelper-compat (= 12), libssl-dev, tcl-dev (>= 8.5), chrpath
+Build-Depends: debhelper (>= 12), libssl-dev, tcl-dev (>= 8.5), chrpath
 Standards-Version: 4.6.0
 Homepage: https://core.tcl.tk/tcltls
 Vcs-Browser: https://salsa.debian.org/tcltk-team/tcltls

@@ -12,7 +12,7 @@ Homepage: https://core.tcl.tk/tcltls
 Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/tcltk-team/tcltls
 Vcs-Git: https://salsa.debian.org/tcltk-team/tcltls.git
-Build-Depends: debhelper-compat (= 12), libssl-dev, tcl-dev (>= 8.5), chrpath
+Build-Depends: debhelper (>= 12), libssl-dev, tcl-dev (>= 8.5), chrpath
 Package-List:
  tcl-tls deb libs optional arch=any
 Checksums-Sha1:
